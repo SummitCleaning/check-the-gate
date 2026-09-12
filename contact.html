@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Check the Gate Productions</title>
+<meta name="description" content="Start a film or video project with Check the Gate Productions.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="index.html">check the gate<span class="dot">.</span> <small>PROD.</small></a>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <button class="menu-btn" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="page-head wrap">
+    <span class="slate">START A PROJECT</span>
+    <h1>Let's talk.</h1>
+    <p class="lead">Tell us what you're making. We read every message and reply within two business days.</p>
+  </section>
+
+  <section class="section wrap" style="padding-top:24px">
+    <div class="contact-grid">
+      <form id="contact-form" novalidate>
+        <div class="field">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" required autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required autocomplete="email">
+        </div>
+        <div class="field">
+          <label for="type">Project type</label>
+          <select id="type" name="type">
+            <option>Brand film</option>
+            <option>Documentary</option>
+            <option>Commercial</option>
+            <option>Music video</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="msg">What are you making?</label>
+          <textarea id="msg" name="msg" rows="5" placeholder="A few lines on the idea, timeline, and rough budget."></textarea>
+        </div>
+        <button class="btn" type="submit">Send message</button>
+        <p id="form-note" style="margin-top:16px;font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--ink-soft)"></p>
+      </form>
+
+      <aside>
+        <div class="slate">DIRECT</div>
+        <p style="font-size:20px;font-weight:600;margin:14px 0 6px">hello@checkthegate.co</p>
+        <p style="color:var(--ink-soft)">+1 (613) 000-0000</p>
+
+        <div class="slate" style="margin-top:40px">STUDIO</div>
+        <p style="color:var(--ink-soft);margin-top:14px;line-height:1.8">Kingston, Ontario<br>Canada</p>
+
+        <div class="slate" style="margin-top:40px">HOURS</div>
+        <p style="color:var(--ink-soft);margin-top:14px;line-height:1.8">Mon–Fri, 9–6 ET<br>Shoots by schedule</p>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div>
+      <div class="fbrand">check the gate<span style="color:var(--marker)">.</span></div>
+      <div class="fmeta">FILM &amp; VIDEO PRODUCTION<br>KINGSTON, ONTARIO</div>
+    </div>
+    <div class="fmeta">hello@checkthegate.co<br>+1 (613) 000-0000</div>
+    <nav class="fnav">
+      <a href="index.html">Home</a><a href="work.html">Work</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
